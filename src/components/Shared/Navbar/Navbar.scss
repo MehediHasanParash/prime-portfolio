@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+.brand-name{
+    font-family: 'Kreon', serif;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+.nav-link{
+    font-family: 'Poppins', serif;
+    font-weight: 400;
+    font-size: .8em !important;
+    transition: color .2s ease-in-out;
+}
+.nav-link:hover{
+    color: #21e6c1 !important;
+}
+
+.download-icon{
+    font-size: 1em;
+}
+
+.navbar-toggler{
+    &:focus {
+        outline: none !important;
+        border: 1px solid rgba(33, 230, 193, 0.3);
+        box-shadow: 0 0 10px rgba(33, 230, 193, 0.3);
+        background-color: #071e3d !important;
+        color: #ccd6f6;
+    }
+}

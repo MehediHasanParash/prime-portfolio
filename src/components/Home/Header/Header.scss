@@ -1,0 +1,92 @@
+.Example {
+    display: flex;
+    font-family: 'Trebuchet MS';
+  
+    &__blinker {
+      animation: blinker 0.5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+      
+      @keyframes blinker {
+        to {
+          opacity: 0;
+        }
+      }
+    }
+  }
+  
+.welcome{
+  font-family: 'Khand', sans-serif;
+  font-size: 1.5em !important;
+}
+
+.text-2{
+  font-family: 'Poppins', sans-serif;
+  font-size: .9em;
+  font-weight: 600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&display=swap');
+.name{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 4em;
+}
+
+.scramble-text{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+
+// Media query
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px){ 
+  .name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  
+  .scramble-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+  }
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) and (min-width: 575.98px)  { 
+  .name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8em;
+  }
+  
+  .scramble-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+  }
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+  .name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  
+  .scramble-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {  }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {  }

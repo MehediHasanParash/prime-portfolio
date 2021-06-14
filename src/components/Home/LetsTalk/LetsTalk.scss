@@ -1,0 +1,71 @@
+.input {
+    font-family: "poppins", "serif";
+    font-weight: 400;
+    max-width: 600px !important;
+    background-color: #071e3d;
+    border: 1px solid #ccd6f6;
+    color: #ccd6f6;
+    &:focus {
+        outline: none !important;
+        border: 1px solid #21e6c1;
+        box-shadow: 0 0 10px rgba(33, 230, 193, 0.1);
+        background-color: #071e3d !important;
+        color: #ccd6f6;
+    }
+}
+
+.social {
+    color: #ccd6f6;
+    font-size: 2em;
+}
+
+.social:hover {
+    color: #21e6c1;
+    cursor: pointer;
+}
+
+.text-3 {
+    font-family: "poppins", "serif";
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.address,
+.phone {
+    font-family: "poppins", "serif";
+    font-weight: 400;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .address,
+    .phone {
+        font-size: .6em;
+    }
+
+    .social {
+        font-size: 1.2em;
+    }
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+    .address,
+    .phone {
+        font-size: .8em;
+    }
+
+    .social {
+        font-size: 1.5em;
+    }
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .address,
+    .phone {
+        font-size: .8em;
+    }
+
+    .social {
+        font-size: 1.8em;
+    }
+}

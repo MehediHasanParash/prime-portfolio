@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.section-title{
+    font-family: 'poppins', serif !important;
+    font-size: 1.6em;
+    border-left: 5px solid #21e6c1;
+}
+
+.profile-details{
+    font-family: 'poppins', serif !important;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.details-social{
+    color: #CCD6F6;
+    font-size: 1.3em;
+}
+
+.details-social:hover{
+    color: #21e6c1;
+    cursor: pointer;
+}
+
+.pt-12{
+    padding-top: 12vh !important;
+}

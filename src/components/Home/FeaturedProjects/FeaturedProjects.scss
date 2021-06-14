@@ -1,0 +1,32 @@
+.featured-title{
+    font-family: 'poppins', serif !important;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.features{
+    font-family: 'poppins', serif !important;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.border-top-none{
+    border-top: none !important;
+}
+
+.small-screen-social{
+    color: #CCD6F6;
+    font-size: 1.2em;
+
+    &:hover{
+        color: #21e6c1;
+    cursor: pointer;
+    }
+}
+
+.featured-title-small{
+    font-family: 'poppins', serif !important;
+    font-size: 1em;
+    line-height: 1.5em !important;
+    font-weight: 500;
+}
